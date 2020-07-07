@@ -4,75 +4,93 @@
 
 <head>
     <title>About Me</title>
-    <style>
-        div.image {
-            text-align: center;
-        }
-        
-        table {
-            margin: auto;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css" type="text/css">
 </head>
 
-<body style="background-color: aqua;">
-    <p style="font-size: larger; text-align: center; background-color: rgba(123, 255, 47, 0.733); padding: 30px;" title="Introduction">
-        This is the website created by P Veda Pranav as per required conditions of the assignment.
-    </p>
-    <br>
-    <h1 style="text-align: center; font-size: x-large;" title="information">
+<body>
+    <h1 title="information">
         My Info
     </h1>
     <br>
-    <p>
+    <div class="navbar">
+        <a href="#Home">Home</a>
+        <a href="#About">About</a>
+        <a href="#Education">Education</a>
+        <a href="#Hobbies">Hobbies</a>
+        <a href="#Ambitions">Ambitions</a>
+        <a href="#Contact">Contact</a>
+    </div>
+    <div id="Home" title="Home" class="home">
+        <h2 title="photo">My Photo:</h2>
         <div class="image">
-            <img src="my-photo.png" alt="my image" title="my image">
-            <br>
-            <br>
-            <br>That's me.
-            <br>
-            <br>
-            <br>
-            <!--using a table to represent info-->
-            <table style="border: 1px solid black; border-collapse: separate; padding: 5px;" title="my info">
-                <caption style="font-size: large;">About me</caption>
-                <tr style="border: 1px solid black; border-collapse: separate;">
-                    <th style="border: 1px solid black; border-collapse: separate;">Education</th>
-                    <th style="border: 1px solid black; border-collapse: separate;">Hobbies</th>
-                    <th style="border: 1px solid black; border-collapse: separate;">Ambitions</th>
-                </tr>
-                <tr style="border: 1px solid black; border-collapse: separate;">
-                    <td style="border: 1px solid black; border-collapse: separate;">Computer Science and Engineering, IITB</td>
-                    <td style="border: 1px solid black; border-collapse: separate;">
-                        <ul>
-                            <li>Novels</li>
-                            <li>Video Games</li>
-                            <li>Songs</li>
-                            <li>Sometimes, Art
-                            </li>
-                        </ul>
-                    </td>
-                    <td style="border: 1px solid black; border-collapse: separate;">
-                        Become a highly knowledgeable and capable person, who can face any situation.
-                    </td>
-                </tr>
-            </table>
-            <br>
-            <br>
-            <form action="thankyou.html">
-                <caption>Opinion</caption>
-                <br>
-                <input type="radio" name="Opinion" id="Good" value="Good">
-                <label for="Good">Good</label>
-                <br>
-                <input type="radio" name="Opinion" id="Bad" value="Bad">
-                <label for="Bad">Bad</label>
-                <br>
-                <br>
-                <button><code style="color: brown;" title="submit">Submit</code></button>
-            </form>
+            <img src="my-photo.png" alt="my image" title="my image" class="photo">
         </div>
-    </p>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div id="About" class="about" title="About">
+        <h2>About</h2>
+        <p title="About">Hi!! I am Veda Pranav. I am currently a student at IITB</p>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div id="Education" class="education">
+        <h2>Education</h2>
+        <p title="Education">
+            I am currently pursuing Computer Science and Engineering at IITB. Also, I am the CR of my batch for the folowing year.
+        </p>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div id="Hobbies" class="hobbies">
+        <h2>Hobbies</h2>
+        <ul title="Hobbies">
+            <li title="Hobbies">Novels</li>
+            <li title="Hobbies">Video Games</li>
+            <li title="Hobbies">Songs</li>
+            <li title="Hobbies">Sometimes, Art</li>
+        </ul>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div id="Ambitions" class="ambition">
+        <h2>Ambitions</h2>
+        <p title="Ambitions">
+            Become a highly knowledgeable and capable person, who can face any situation. Also, a nice and comfortable life would be nice.
+        </p>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div id="Contact" title="Contact" class="contact">
+        <h2>Contact</h2>
+        <dl>
+            <dt>Phone</dt>
+            <dd>9701082961</dd>
+            <br>
+            <dt>Facebook</dt>
+            <dd><a href="https://www.facebook.com/veda.pranav">You can always look me up on facebook.</a></dd>
+        </dl>
+    </div>
+    <br>
+    <br>
+    <br>
+    <form action="thankyou.html" title="Opinion">
+        <caption style="font-size: xx-large;"><b>Opinion</b></caption>
+        <br>
+        <input type="radio" name="Opinion" id="Good" value="Good">
+        <label for="Good">Good</label>
+        <br>
+        <input type="radio" name="Opinion" id="Bad" value="Bad">
+        <label for="Bad">Bad</label>
+        <br>
+        <br>
+        <button><code style="color: brown;" title="submit">Submit</code></button>
+    </form>
 </body>
 
 </html>
