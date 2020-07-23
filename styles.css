@@ -71,6 +71,23 @@ body {
     margin-bottom: 16px;
 }
 
+.features .form-control,
+.features input {
+    border-radius: 0;
+}
+
+.features .btn {
+    background-color: #589b37;
+    border: 1px solid #589b37;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.features .btn:hover {
+    background-color: #333;
+    border: 1px solid #333;
+}
+
 .page-footer {
     background-color: #222;
     color: #ccc;
@@ -109,8 +126,7 @@ body {
     justify-content: flex-end;
 }
 
-@media (max-width: 575.98px) {
-<<<<<<< HEAD
+@media screen and (max-width: 600px) {
     .description {
         left: 0;
         padding: 0 15px;
@@ -129,26 +145,3 @@ body {
         margin: 0;
     }
 }
-=======
-  .description {
-    left: 0;
-    padding: 0 15px;
-    position: absolute;
-    top: 10%;
-    transform: none;
-    text-align: center;
-  }
-  
-  .description h1 {
-    font-size: 2em;
-  }
-  
-  .description p {
-    font-size: 1.2rem;
-  }
-  
-  .features {
-    margin: 0;
-  }
-}
->>>>>>> 28f4e7ddead7e92cda66fac755ed7075b6a3d322

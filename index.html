@@ -6,6 +6,7 @@
     <title>About Me</title>
     <link rel="stylesheet" href="styles.css" type="text/css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
@@ -80,6 +81,10 @@
                     <p>You can always look me up on facebook.
                         <br/><a href="https://www.facebook.com/veda.pranav">Here.</a>
                     </p>
+                    <p>
+                        Also, on my instagram.
+                        <br/><a href="https://www.instagram.com/veda.pranav/">Here.</a>
+                    </p>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12">
                     <h6 class="text-uppercase font-weight-bold">Contact</h6>
@@ -88,17 +93,18 @@
                         <br/>+91 9701082961</p>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12">
-                    <form action="thankyou.html" title="Opinion">
-                        <caption style="font-size: xx-large;"><b>Opinion</b></caption>
-                        <br>
-                        <input type="radio" name="Opinion" id="Good" value="Good">
-                        <label for="Good">Good</label>
-                        <br>
-                        <input type="radio" name="Opinion" id="Bad" value="Bad">
-                        <label for="Bad">Bad</label>
-                        <br>
-                        <br>
-                        <button><code style="color: brown;" title="submit">Submit</code></button>
+                    <form action="https://formspree.io/mwkrabpy" method="POST" name="opinion">
+                        <h6 class="text-uppercase font-weight-bold">Get in Touch!</h6>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Name" name="Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Email Address" name="Email">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" rows="4" name="Opinion"></textarea>
+                        </div>
+                        <input type="submit" class="btn btn-success btn-block" value="Send">
                     </form>
                 </div>
             </div>
