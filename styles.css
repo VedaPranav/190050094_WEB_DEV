@@ -110,6 +110,7 @@ body {
 }
 
 @media (max-width: 575.98px) {
+<<<<<<< HEAD
     .description {
         left: 0;
         padding: 0 15px;
@@ -128,3 +129,26 @@ body {
         margin: 0;
     }
 }
+=======
+  .description {
+    left: 0;
+    padding: 0 15px;
+    position: absolute;
+    top: 10%;
+    transform: none;
+    text-align: center;
+  }
+  
+  .description h1 {
+    font-size: 2em;
+  }
+  
+  .description p {
+    font-size: 1.2rem;
+  }
+  
+  .features {
+    margin: 0;
+  }
+}
+>>>>>>> 28f4e7ddead7e92cda66fac755ed7075b6a3d322
