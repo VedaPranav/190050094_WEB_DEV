@@ -7,21 +7,22 @@
     <link rel="stylesheet" href="styles.css" type="text/css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jquery-3.5.1.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md">
-        <a class="navbar-brand" href="logo.png">
-            logo
+    <nav class="navbar navbar-expand-md fixed-top">
+        <a class="navbar-brand" href="#Home">
+            MyWebsite
         </a>
         <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="main-navigation">
             <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#Home">Home</a>
-                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#About">About</a>
                 </li>
@@ -78,41 +79,38 @@
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-12">
                     <h6 class="text-uppercase font-weight-bold">Additional Information</h6>
-                    <p>You can always look me up on facebook.
-                        <br/><a href="https://www.facebook.com/veda.pranav">Here.</a>
-                    </p>
-                    <p>
-                        Also, on my instagram.
-                        <br/><a href="https://www.instagram.com/veda.pranav/">Here.</a>
+                    <p>You can always look me up on facebook and instagram.
+                        <hr>
+                        <a href="https://www.facebook.com/veda.pranav" class="fa fa-facebook" style="font-size: x-large;color: white;" id="x"></a>
+                        <a href="https://www.instagram.com/veda.pranav/" class="icons brand fa fa-instagram" style="color: white;font-size: x-large;" id="x"></a>
                     </p>
                 </div>
+                <hr>
                 <div class="col-lg-4 col-md-4 col-sm-12">
                     <h6 class="text-uppercase font-weight-bold">Contact</h6>
                     <p>Hyderabad, Telangana
                         <br/>vedapranav18042002@gmail.com
                         <br/>+91 9701082961</p>
                 </div>
+                <hr>
                 <div class="col-lg-4 col-md-4 col-sm-12">
                     <form action="https://formspree.io/mwkrabpy" method="POST" name="opinion">
                         <h6 class="text-uppercase font-weight-bold">Get in Touch!</h6>
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Name" name="Name">
+                            <input type="text" class="form-control" placeholder="Name" name="Name" required>
                         </div>
                         <div class="form-group">
-                            <input type="email" class="form-control" placeholder="Email Address" name="Email">
+                            <input type="email" class="form-control" placeholder="Email Address" name="Email" required>
                         </div>
                         <div class="form-group">
-                            <textarea class="form-control" rows="4" name="Opinion"></textarea>
+                            <textarea class="form-control" rows="4" name="Opinion" required></textarea>
                         </div>
                         <input type="submit" class="btn btn-success btn-block" value="Send">
                     </form>
                 </div>
             </div>
-            <!--<div class="footer-copyright text-center">© 2020 Copyright: MyWebsite.com</div>-->
+            <div class="footer-copyright text-center">© 2020 Copyright: P Veda Pranav</div>
     </footer>
-    <script src="jquery-3.5.1.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-    <script src="main.js"></script>
 </body>
 
 </html>
